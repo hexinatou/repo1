@@ -13,6 +13,7 @@ public class Demo {
 //            stuFactory.getWork().dowork1();
             CinemaStatic cinemaStatic = new CinemaStatic(new RealMovie());
             cinemaStatic.play();
+            System.out.println("hhhh");
         } catch (Exception e) {
             e.printStackTrace();
         }

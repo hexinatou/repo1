@@ -12,7 +12,6 @@ public class HelloController {
     @RequestMapping("/index")
     public String handleRequest(){
 
-        System.out.println("---------HelloController executed--------");
         return "hello 嘿嘿";
 //        return new ModelAndView("test");
     }
